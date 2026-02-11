@@ -108,9 +108,14 @@ export function Footer() {
           <p className="text-gray-500 text-sm">
             © 2026 CES Summary. 数据来源于公开报道。
           </p>
-          <p className="text-gray-600 text-xs">
-            本站为CES 2026大会信息汇总，非官方网站
-          </p>
+          <div className="text-center sm:text-right space-y-1">
+            <p className="text-gray-600 text-xs">
+              本站为CES 2026大会信息汇总，非官方网站
+            </p>
+            <p className="text-gray-500 text-xs tracking-wide">
+              网页制作者：檬檬
+            </p>
+          </div>
         </div>
       </div>
     </footer>
